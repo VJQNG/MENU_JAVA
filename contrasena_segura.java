@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class contrasena_segura{
-	public static void main(String[] args){
+class contrasena_segura{
+	public void comienzo(){
 		// System.out.println();
 		Scanner entra = new Scanner(System.in);	
 		String usuario;

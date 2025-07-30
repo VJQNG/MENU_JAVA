@@ -1,7 +1,7 @@
 // serie de collatz desde un numero +N
 import java.util.Scanner;
-public class collatz{
-    public static void main(String[] args){
+class collatz{
+    public void comienzo(){
         Scanner entra = new Scanner(System.in);
         System.out.print("Serie de Collatz. Ingrese N: ");
         int N = entra.nextInt();
